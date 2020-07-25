@@ -1,5 +1,5 @@
 package 일이삼더하기4;
-
+// 못풀음 
 import java.util.Scanner;
 
 public class Main {
@@ -12,7 +12,7 @@ public class Main {
 		if(dp[x]>0) {
 			return dp[x];
 		}
-		dp[x] = dp[x]
+		
 		
 	}
 	public static void main(String[] args) {
