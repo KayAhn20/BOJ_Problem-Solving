@@ -10,7 +10,7 @@ public class Main {
 			int num = sc.nextInt();
 			int temp =0;
 			for(int i=1; i<=num; i++) {
-				if(i)
+				
 			}
 		}
 	}
