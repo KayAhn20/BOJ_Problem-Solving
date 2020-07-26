@@ -1,5 +1,5 @@
 package OctatoBinary;
-
+// 1212번 문제 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
