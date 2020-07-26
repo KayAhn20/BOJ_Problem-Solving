@@ -1,5 +1,5 @@
 package 곱셈;
-
+// 분할정복으로 풀어야 된다 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -17,10 +17,13 @@ public class Main {
 		int z = Integer.parseInt(str[2]);
 		int temp = y-1;
 		long result=1;
-		while(temp-->0) {
-			result *= (x*y)%z;
-			System.out.println(result);
-			result %= z;
+		if(temp>0) {
+			while(temp-->0) {
+				result *= x%z;
+				result %= z;
+			}
+		}else {
+			result = x%z;
 		}
 		bw.write(result + "\n");
 		bw.close();
