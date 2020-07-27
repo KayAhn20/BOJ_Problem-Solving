@@ -1,5 +1,5 @@
 package 수_정렬하기2;
-
+//2751번 문제  
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
