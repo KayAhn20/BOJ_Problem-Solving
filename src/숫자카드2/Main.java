@@ -3,6 +3,7 @@ package 숫자카드2;
 
 // 10816번 문제 
 import java.util.Arrays;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.io.BufferedReader;
@@ -12,9 +13,9 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 public class Main {
-	public static int bs(int[] arr, int start, int end) {
+	//public static int bs(int[] arr, int start, int end) {
 		
-	}
+	//}
 	
 	public static void main(String[] args) throws  IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
