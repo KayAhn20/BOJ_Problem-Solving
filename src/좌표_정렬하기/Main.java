@@ -36,7 +36,9 @@ public class Main {
 		});
 
 		for (int i = 0; i < arr.length; i++) {
-			System.out.println(arr[i][0] + " " + arr[i][1]);
+			bw.write(arr[i][0] + " " + arr[i][1]+"\n");
 		}
+		bw.flush();
+		bw.close();
 	}
 }
