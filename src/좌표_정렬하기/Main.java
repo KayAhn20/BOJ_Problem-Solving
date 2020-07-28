@@ -1,5 +1,6 @@
 package 좌표_정렬하기;
-
+// 11650 번 문제  
+//  Comparator 인터페이스 재정의가 중요한 문제다  
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
