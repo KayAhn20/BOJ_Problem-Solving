@@ -28,7 +28,7 @@ public class Main {
 			visited[i] = false;
 		}
 		System.out.println();
-		bfs(start);					// BFS strats
+		bfs(start);					// BFS starts
 	}
 	static void dfs(int start) {
         System.out.print(start + " ");
