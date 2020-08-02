@@ -23,12 +23,12 @@ public class Main {
 			Node2 = sc.nextInt();
 			graph[Node1][Node2] = graph[Node2][Node1] = true;
 		}
-		dfs(start);
-		for(int i=0; i<1000; i++) {
+		dfs(start);					 // DFS starts 
+		for(int i=0; i<=Node; i++) { // visited 전체를 false 로 만들어줌 
 			visited[i] = false;
 		}
 		System.out.println();
-		bfs(start);
+		bfs(start);					// BFS strats
 	}
 	static void dfs(int start) {
         System.out.print(start + " ");
@@ -41,6 +41,10 @@ public class Main {
         }
     }
 	static void bfs(int start) {
+		// BFS의 알고리즘~~
+		// 1.큐에서 하나의 노드를 꺼냅니다.
+		// 2.해당 노드에 연결된 노드중 방문하지 않은 노드를 방문하고, 차례대로 큐에 삽입합니다.. 
+		// 1,2 번 반복  
 		Queue<Integer> queue = new LinkedList<>();
 		queue.offer(start);
 		visited[start] = true;
