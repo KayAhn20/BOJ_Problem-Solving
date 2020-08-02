@@ -24,7 +24,7 @@ public class Main {
 			graph[Node1][Node2] = graph[Node2][Node1] = true;
 		}
 		dfs(start);					 // DFS starts 
-		for(int i=0; i<=Node; i++) { // visited 전체를 false 로 만들어줌 
+		for(int i=0; i<=Node; i++) { // visited 전체를 false 로 만들어줌 ~
 			visited[i] = false;
 		}
 		System.out.println();
